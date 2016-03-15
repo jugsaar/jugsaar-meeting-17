@@ -1,0 +1,17 @@
+{
+	"folders":
+	[
+		{
+			"path": "/home/tom/dev/playgroud/keycloak/keycloak-1.9.1.Final-SNAPSHOT"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "/home/tom/dev/repos/gh/jugsaar/javaee7-petclinic"
+		},
+		{
+			"path": "/home/tom/dev/repos/gh/thomasdarimont/keycloak-dev/keycloak"
+		}
+	]
+}

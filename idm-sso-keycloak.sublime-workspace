@@ -1,0 +1,838 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"javaee",
+				"javaee7"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "demo.md",
+			"settings":
+			{
+				"buffer_size": 3249,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spring-boot-keycloak-adapter-demo/pom.xml",
+			"settings":
+			{
+				"buffer_size": 2235,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Type to search: ",
+			"settings":
+			{
+				"buffer_size": 16,
+				"line_ending": "Unix",
+				"name": "Instant File Search",
+				"scratch": true
+			}
+		},
+		{
+			"file": "keycloak-demo/bin/run-kc-1.9.1.sh",
+			"settings":
+			{
+				"buffer_size": 534,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/tom/dev/playgroud/keycloak/keycloak-1.9.1.Final-SNAPSHOT/themes/base/login/messages/messages_en.properties",
+			"settings":
+			{
+				"buffer_size": 10312,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/tom/dev/playgroud/keycloak/keycloak-1.9.1.Final-SNAPSHOT/themes/base/login/messages/messages_de.properties",
+			"settings":
+			{
+				"buffer_size": 10468,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/tom/dev/playgroud/keycloak/keycloak-1.9.1.Final-SNAPSHOT/themes/base/login/login.ftl",
+			"settings":
+			{
+				"buffer_size": 4340,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Identity~Management\nIdentity~Management\nIdentity~Management\nIdentity~Management\nIdentity~Management\nIdM\nIdM\nIdM\nAccess~Management\nAM\nAM\nAM\nIdentity~&~Access~Management\nIAM\nIAM\nIAM\nAuthentication (AuthN)\nAuthorization (AuthZ)\nUser~Management\nUser~Provisioning\nAccount~Reconciliation\nMFA\nMFA\nMFA \nMulti-factor~Authentication\nIdentity~Brokering\nIdentity~Provider\nFederation\nRole~Management\nAuditing\nSelf-Service~Account~Management\nRBAC\nRole~based~Access~Control\nRole\nPermission\nSingle~Sign~On\nSSO\nSSO\nSSO\nACL",
+			"settings":
+			{
+				"buffer_size": 505,
+				"line_ending": "Unix",
+				"name": "Identity~Management"
+			}
+		},
+		{
+			"contents": "Authentication\n* OIDC\n* SAML2\n* Social\n* TOTP\n* IdP \"Proxy\" for both SAML2 and OIDC\n\nUser Data Sources\n* LDAP\n* AD\n* Custom\n\nRole Management\n* Local database\n* Mapped to external data source\n\nApplication Integration\n* SAML2\n* OIDC/OAuth2\n* Reverse Proxy with header injection\n\nUI Pages\n* Themed\n\n\nMuch more:\n- IDP brokering (Keycloak can be a child IDP to a parent IDP)\n- reset credentials\n- registration (with or without recaptcha)\n- required actions (verify email, update credentials, update profile)\n- User session management\n\nCustom SPIs to create/augment:\n- browser login flow\n- reset credential flow\n- registration\n- REST validation\n- service accounts\n\nWith this SPI you can add custom authentication types, perform workflow actions, etc...\n\nUser self-help:\n- Account management for logged in users.\n\nInternationalization/Localization:\n- Basically all UIs (admin console, login, \n",
+			"settings":
+			{
+				"buffer_size": 886,
+				"line_ending": "Unix",
+				"name": "Authentication"
+			}
+		},
+		{
+			"contents": "Identity\nIdentity\nIdentity\nIdentity\nManagement\nManagement\nManagement\nManagement\nPolicy \nPassword\nPassword\nPassword\nDatenschutz\nDatenschutz\nLaw\nPrivacy\nStandards\nAccount\nLogout\nLogin\nAccess\nTrust\nIdentity~Management\nIdM\nIdM\nIdM\nAccess~Management\nAM\nAM\nAM\nIdentity~&~Access~Management\nIAM\nIAM\nIAM\nAuthentication (AuthN)\nAuthorization (AuthZ)\nUser~Management\nUser~Provisioning\nAccount~Reconciliation\nMFA\nMFA\nMFA \nMulti-factor~Authentication\nIdentity~Brokering\nIdentity~Provider\nFederation\nRole~Management\nAuditing\nSelf-Service~Account~Management\nRBAC\nRole~based~Access~Control\nRole\nPermission\nSingle~Sign~On\nSSO\nSSO\nSSO\nACL\n",
+			"settings":
+			{
+				"buffer_size": 621,
+				"line_ending": "Unix",
+				"name": "Identity"
+			}
+		},
+		{
+			"contents": "[Desktop Entry]\nName=IntelliJ\nComment=\nExec=/opt/tools/ide/idea-IU-143.1184.17/bin/idea.sh\nIcon=/opt/tools/ide/idea-IU-143.1184.17/bin/idea.png\nTerminal=false\nType=Application\nStartupNotify=true",
+			"file": "/home/tom/.local/share/applications/intellij.desktop",
+			"file_size": 194,
+			"file_write_time": 131008279348564329,
+			"settings":
+			{
+				"buffer_size": 194,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "eyJhbGciOiJSUzI1NiJ9.eyJqdGkiOiIxOTA0Y2E1MC0wMWFmLTRlN2QtODFkOS00MWI4NzM1YjI5MDIiLCJleHAiOjE0NTYzOTYwOTAsIm5iZiI6MCwiaWF0IjoxNDU2Mzk1NzkwLCJpc3MiOiJodHRwOi8vbG9naW4uYWNtZS5sb2NhbDo4MDgxL2F1dGgvcmVhbG1zL2FjbWUiLCJhdWQiOiJhY21lLXBldGNsaW5pYyIsInN1YiI6IjY1OTkyZjc5LTYzODItNGQ5OC05YWYyLTkwY2Y1Zjc2ZmU5MSIsInR5cCI6IkJlYXJlciIsImF6cCI6ImFjbWUtcGV0Y2xpbmljIiwic2Vzc2lvbl9zdGF0ZSI6IjljY2FlMTgyLTc1NTYtNGRjOS1iOGU3LWYwYjI5MDVhN2MzOSIsImNsaWVudF9zZXNzaW9uIjoiNmRmMDBlNDMtMTc0Ni00YTI5LTkwN2MtY2QwZDkzODA2ZGIxIiwiYWxsb3dlZC1vcmlnaW5zIjpbImh0dHA6Ly9hcHAucGV0Y2xpbmljLmxvY2FsOjgwODAiXSwicmVzb3VyY2VfYWNjZXNzIjp7ImFjbWUtcGV0Y2xpbmljIjp7InJvbGVzIjpbImFkbWluIiwidXNlciJdfX0sIm5hbWUiOiJUaGVvIFRlc3RlciIsInByZWZlcnJlZF91c2VybmFtZSI6InRoZW8iLCJnaXZlbl9uYW1lIjoiVGhlbyIsImZhbWlseV9uYW1lIjoiVGVzdGVyIiwiZW1haWwiOiJ0b20rdGhlb0Bsb2NhbGhvc3QifQ.F_2_QqDjuHcDL5oWMn-SPrOmYxbz90LfeUtSJpIEn-hJzt5OCE1CPVD_WhNFO2rtlwpotGQ4GvPOYHG3FnTRpfd8o8RHgRviQZJTXgIZmibefPNnY7zaaj8xLWDys5qez5Tp6vaU6TvvGr2RPzbIEV1jwuH9EEP4F3rbKfJVzXxHiKDzwBBDzIAYw8J9C0z8P5cN10NgqSpITWahkuyWNs6O7rJzxskrzKQSdGThADmQgWj0D1wLN6gCKGO4ZLO07V4zlOv56GoFEXHqoJrcseKMAhkG9aRlb9RoCXQOeU7xjGFu5AYpUE_u0AU53zRNtfHtJWSKI-XGI5Uktxk-bw",
+			"settings":
+			{
+				"buffer_size": 1162,
+				"line_ending": "Unix",
+				"name": "eyJhbGciOiJSUzI1NiJ9.eyJqdGkiOiIxOTA0Y2E1MC0wMWFmL"
+			}
+		},
+		{
+			"contents": "ClientAttributesCtrl\n\nClientRoleListCtrl\n\njava.lang.management.ThreadMXBean#getThreadCpuTime",
+			"settings":
+			{
+				"buffer_size": 92,
+				"line_ending": "Unix",
+				"name": "ClientAttributesCtrl"
+			}
+		},
+		{
+			"contents": "socket loop logo Socket Loop\nReferences\nTutorials\nBlogs\nApt-get to install and uninstall Golang\n\ngolang.png\n12th May 2015\n\n\nFor this short tutorial, we will learn how to install, uninstall Golang with apt-get. We will also explore an interesting program that was created just to manage Golang installations and dependencies - GMV ( Go Version Manager ).\n\nto install Golang\n>sudo apt-get install golang\n\nthen confirm that the installation is ok\n\n>go version\n\ngo version go1.4.2 linux/amd64\nto uninstall Golang\n>sudo apt-get remove golang\n\nIf you prefer use GVM ( https://github.com/moovweb/gvm ), the commands are\n\n>gvm install go1.4.2\n\n>gvm use go1.4.2 --default\n\nto uninstall Golang and GVM\n>gvm implode\n\n  See also : Mac OSX : Homebrew and Golang\n\n\n\nTags : golang install uninstall apt-get \n\nAdam Ng By Adam Ng\n\nGet in touch at Google Plus or stay updated on Facebook.\n\nIF you gain some knowledge or the information here solved your programming problem. Please consider donating to the less fortunate or some charities that you like. Apart from donation, planting trees, volunteering or reducing your carbon footprint will be great too.\n\n\n Advertisement\n Subscribe Newsletter\nEmail Address\n\n\nSubscribe\n",
+			"settings":
+			{
+				"buffer_size": 1204,
+				"line_ending": "Unix",
+				"name": "socket loop logo Socket Loop"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "pain",
+		"selected_items":
+		[
+			[
+				"pain",
+				"Package Control: Install Package"
+			],
+			[
+				"Colorcoder",
+				"Tweak Colorcode to current color scheme"
+			],
+			[
+				"pin",
+				"Package Control: Install Package"
+			],
+			[
+				"Git",
+				"Git: Init"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 476.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/tom/dev/playgroud/keycloak/keycloak-1.9.1.Final-SNAPSHOT",
+		"/home/tom/dev/playgroud/keycloak/keycloak-1.9.1.Final-SNAPSHOT/themes",
+		"/home/tom/dev/playgroud/keycloak/keycloak-1.9.1.Final-SNAPSHOT/themes/base",
+		"/home/tom/dev/playgroud/keycloak/keycloak-1.9.1.Final-SNAPSHOT/themes/base/login",
+		"/home/tom/dev/playgroud/keycloak/keycloak-1.9.1.Final-SNAPSHOT/themes/base/login/messages",
+		"/home/tom/dev/playgroud/keycloak/keycloak-1.9.1.Final-SNAPSHOT/themes/keycloak",
+		"/home/tom/dev/playgroud/keycloak/keycloak-1.9.1.Final-SNAPSHOT/themes/keycloak/login",
+		"/home/tom/dev/playgroud/keycloak/keycloak-1.9.1.Final-SNAPSHOT/themes/keycloak/login/resources",
+		"/home/tom/dev/repos/gh/jugsaar/jugsaar-meeting-17",
+		"/home/tom/dev/repos/gh/jugsaar/jugsaar-meeting-17/keycloak-demo",
+		"/home/tom/dev/repos/gh/jugsaar/jugsaar-meeting-17/keycloak-demo/bin",
+		"/home/tom/dev/repos/gh/jugsaar/jugsaar-meeting-17/keycloak-demo/configuration",
+		"/home/tom/dev/repos/gh/jugsaar/jugsaar-meeting-17/spring-boot-keycloak-adapter-demo"
+	],
+	"file_history":
+	[
+		"/home/tom/dev/repos/gh/jugsaar/jugsaar-meeting-17/keycloak-demo/bin/run-kc-1.9.1.sh",
+		"/home/tom/dev/playgroud/keycloak/keycloak-1.9.1.Final-SNAPSHOT/themes/base/login/login.ftl",
+		"/home/tom/dev/playgroud/keycloak/keycloak-1.9.1.Final-SNAPSHOT/themes/base/login/template.ftl",
+		"/home/tom/dev/playgroud/keycloak/keycloak-1.9.1.Final-SNAPSHOT/standalone/configuration/keycloak-server.json",
+		"/home/tom/dev/playgroud/keycloak/keycloak-1.9.1.Final-SNAPSHOT/themes/base/login/messages/messages_en.properties",
+		"/home/tom/dev/repos/gh/thomasdarimont/keycloak-dev/keycloak/themes/src/main/resources/theme/base/login/login.ftl",
+		"/home/tom/dev/repos/gh/jugsaar/jugsaar-meeting-17/keycloak-demo/bin/init-keycloak.sh",
+		"/home/tom/dev/repos/gh/thomasdarimont/keycloak-dev/keycloak/themes/src/main/resources/theme/base/login/messages/messages_de.properties",
+		"/home/tom/dev/playgroud/keycloak/keycloak-1.9.1.Final-SNAPSHOT/themes/base/login/messages/messages_de.properties",
+		"/home/tom/dev/repos/gh/thomasdarimont/keycloak-dev/keycloak/themes/src/main/resources/theme/base/login/messages/messages_en.properties",
+		"/opt/server/wildfly-10.0.0.Final/keycloak-demo/configuration/standalone.xml",
+		"/home/tom/dev/repos/gh/jugsaar/jugsaar-meeting-16/keycloak-demo/init-keycloak.sh",
+		"/home/tom/dev/playgroud/elasticsearch/elastic/prepare-ssl.sh",
+		"/home/tom/.gitconfig",
+		"/home/tom/dev/playgroud/py/simplecv/findInputFields4.py",
+		"/tmp/stats.txt",
+		"/home/tom/dev/repos/gh/thomasdarimont/keycloak-dev/keycloak/.git/rr-cache/bd2af237ababc6d0fe3efb068d84d8ced22ee929/preimage",
+		"/home/tom/dev/ws/sts-2.7.2/spring-cloud-bugs-eureka-instance-config-bug/.project",
+		"/opt/server/keycloak-1.7.0.Final/standalone/configuration/keycloak-server.json",
+		"/media/tom/DATA001TRD/backup/home/tom/dev/ws/eclipse/3.7.2CI/spring-boot-keycloak-filter-example/pom.xml",
+		"/media/tom/DATA001TRD/backup/home/tom/dev/ws/eclipse/3.7.2CI/spring-boot-keycloak-example/pom.xml",
+		"/home/tom/dev/playgroud/web/html/jemalloc-java.txt",
+		"/home/tom/dev/playgroud/web/html/test.html",
+		"/home/tom/Desktop/keycloak-issues.txt",
+		"/home/tom/dev/playgroud/edtas/keycloak/Dockerfile",
+		"/home/tom/dev/playgroud/edtas/keycloak/docker-entrypoint.sh",
+		"/home/tom/dev/playgroud/keycloak/keycloak-1.8.0.CR1/standalone/configuration/standalone-ha.xml",
+		"/home/tom/dev/repos/gh/thomasdarimont/keycloak-dev/keycloak-docker/server-ha-postgres/update-standalone-ha.xsl",
+		"/home/tom/dev/repos/gh/thomasdarimont/keycloak-dev/keycloak-docker/server-ha-postgres/Dockerfile",
+		"/home/tom/dev/playgroud/keycloak/keycloak-1.8.0.CR1/standalone/configuration/standalone-ha-jgroups-tcp.xml",
+		"/home/tom/dev/repos/gh/thomasdarimont/keycloak-dev/keycloak-docker/server-ha-postgres/standalone-ha.xml",
+		"/home/tom/Desktop/test-eurodata.de-keycloak-1.5.txt",
+		"/home/tom/Desktop/KeycloakHwTokenSupport.patch",
+		"/home/tom/Desktop/java-flexible-extensions.txt",
+		"/home/tom/Desktop/login-email-code-wip.txt",
+		"/home/tom/Desktop/idm-edfirma-pisa.txt",
+		"/home/tom/Desktop/IdM/keycloak/proposal-2nd-factor-auth-email.txt",
+		"/home/tom/Documents/macbeth",
+		"/home/tom/dev/playgroud/idm/syncope-standalone-2.0.0-M1/apache-tomcat-8.0.30/webapps/syncope-enduser/WEB-INF/web.xml",
+		"/home/tom/dev/playgroud/keycloak/keycloak-1.8.0.CR3/standalone/configuration/keycloak-server.json",
+		"/home/tom/dev/repos/gh/thomasdarimont/taxcalculator/target/generated-classes/info/kuechler/bmf/taxcalculator/Lohnsteuer2015DezemberBig.java",
+		"/home/tom/.bashrc",
+		"/home/tom/dev/playgroud/idm/syncope-standalone-2.0.0-M1/apache-tomcat-8.0.30/webapps/syncope-enduser/WEB-INF/jboss-deployment-structure.xml",
+		"/home/tom/dev/playgroud/idm/syncope-standalone-2.0.0-M1/apache-tomcat-8.0.30/webapps/syncope-enduser/WEB-INF/weblogic.xml",
+		"/home/tom/dev/playgroud/idm/syncope-standalone-2.0.0-M1/apache-tomcat-8.0.30/webapps/syncope-enduser/WEB-INF/glassfish-web.xml",
+		"/home/tom/dev/playgroud/idm/syncope-standalone-2.0.0-M1/apache-tomcat-8.0.30/webapps/syncope-enduser/WEB-INF/classes/context.xml",
+		"/home/tom/dev/playgroud/idm/syncope-standalone-2.0.0-M1/apache-tomcat-8.0.30/webapps/syncope-enduser/WEB-INF/classes/enduser.properties",
+		"/home/tom/Desktop/201602_angularjs",
+		"/home/tom/Desktop/keycloak-auth-script.js",
+		"/home/tom/dev/playgroud/nodejs/ui-ace/dist/ui-ace.min.js",
+		"/lib/systemd/system/docker.service",
+		"/etc/environment",
+		"/etc/default/docker",
+		"/etc/apt/sources.list.d/docker.list",
+		"/home/tom/.zshrc",
+		"/lib/systemd/system-sleep/00broadcom_wl_suspend",
+		"/lib/systemd/system-sleep/broadcom_wl_suspend"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"client_security-admin-console",
+			"procee",
+			"proceed",
+			"user",
+			"transport",
+			"keycloak",
+			"udp",
+			"channel",
+			"cluster",
+			"clutser",
+			"mergetool",
+			"setVKAPA",
+			"set",
+			"VKAPA"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 13,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "demo.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3249,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2667,
+								2667
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"color_scheme": "Packages/User/Color Highlighter/themes/Monokai (Colorcoded) (SL) (Colorcoded).tmTheme",
+							"colorcode": true,
+							"open_with_edit": true,
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2139.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "spring-boot-keycloak-adapter-demo/pom.xml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2235,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1959,
+								1959
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"syntax": "Packages/XML/XML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 632.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 16,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16,
+								16
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"default_dir": "/home/tom/dev/playgroud/keycloak/keycloak-1.9.1.Final-SNAPSHOT",
+							"sidebar_instant_search_paths":
+							[
+								"/home/tom/dev/repos/gh/jugsaar/jugsaar-meeting-17/spring-boot-keycloak-adapter-demo"
+							],
+							"syntax": "Packages/SideBarEnhancements/SideBar Results.hidden-tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "keycloak-demo/bin/run-kc-1.9.1.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 534,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								534,
+								534
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"open_with_edit": true,
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/tom/dev/playgroud/keycloak/keycloak-1.9.1.Final-SNAPSHOT/themes/base/login/messages/messages_en.properties",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10312,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10312,
+								10312
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"syntax": "Packages/Java/JavaProperties.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 4807.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/tom/dev/playgroud/keycloak/keycloak-1.9.1.Final-SNAPSHOT/themes/base/login/messages/messages_de.properties",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10468,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10468,
+								10468
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"syntax": "Packages/Java/JavaProperties.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 4393.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/tom/dev/playgroud/keycloak/keycloak-1.9.1.Final-SNAPSHOT/themes/base/login/login.ftl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4340,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								843,
+								843
+							]
+						],
+						"settings":
+						{
+							"auto_complete": false,
+							"colorcode": true,
+							"syntax": "Packages/FreeMarker/Syntaxes/FreeMarker.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 505,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								474,
+								474
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Identity~Management",
+							"colorcode": true,
+							"default_dir": "/home/tom/dev/playgroud/keycloak/keycloak-1.9.1.Final-SNAPSHOT",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 218.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 886,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								285,
+								285
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Authentication",
+							"colorcode": true,
+							"default_dir": "/home/tom/dev/playgroud/keycloak/keycloak-1.9.1.Final-SNAPSHOT",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 621,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								621,
+								621
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Identity",
+							"colorcode": true,
+							"default_dir": "/home/tom/dev/playgroud/keycloak/keycloak-1.9.1.Final-SNAPSHOT",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 655.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/home/tom/.local/share/applications/intellij.desktop",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 194,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								194,
+								194
+							]
+						],
+						"settings":
+						{
+							"colorcode": true,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1162,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1162,
+								1162
+							]
+						],
+						"settings":
+						{
+							"auto_name": "eyJhbGciOiJSUzI1NiJ9.eyJqdGkiOiIxOTA0Y2E1MC0wMWFmL",
+							"colorcode": true,
+							"default_dir": "/home/tom/dev/playgroud/keycloak/keycloak-1.9.1.Final-SNAPSHOT",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 92,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								63,
+								63
+							]
+						],
+						"settings":
+						{
+							"auto_name": "ClientAttributesCtrl",
+							"colorcode": true,
+							"default_dir": "/home/tom/dev/playgroud/keycloak/keycloak-1.9.1.Final-SNAPSHOT",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1204,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								401,
+								401
+							]
+						],
+						"settings":
+						{
+							"auto_name": "socket loop logo Socket Loop",
+							"colorcode": true,
+							"default_dir": "/home/tom/dev/playgroud/keycloak/keycloak-1.9.1.Final-SNAPSHOT",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.doc":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "idm-sso-keycloak.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 375.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
